@@ -1,0 +1,4 @@
+.catkin_tools/
+src/move_group_interface/cmake-build-debug/
+src/move_group_interface/.idea/
+src/move_group_interface/.github/
