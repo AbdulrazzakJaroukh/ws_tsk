@@ -120,7 +120,6 @@ public:
       start_state.setJointGroupPositions(joint_model_group, joint_values);
       move_group->setStartState(start_state);
     }
-    std::this_thread::sleep_for(std::chrono::milliseconds(10000));
     moveit_msgs::RobotTrajectory trajectory_msg;
     rt1.getRobotTrajectoryMsg(trajectory_msg);
     my_plan.trajectory_ = trajectory_msg;
