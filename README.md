@@ -8,6 +8,7 @@
 * catkin build -j4
 * source devel/setup.bash
 * roslaunch panda_moveit_config demo.launch 
+
 In new tab:
 * cd ws_tsk
 * source devel/setup.bash
