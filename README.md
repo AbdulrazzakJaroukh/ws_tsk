@@ -1,4 +1,4 @@
-# prerequistics
+# Prerequistics
 * franka_description should be installed 
 # Instruction
 * clone
