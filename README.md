@@ -1,6 +1,6 @@
 # Prerequistics
 * moveit installed
-* franka_description should be installed 
+* franka_description installed 
 # Instruction
 * git clone https://github.com/AbdulrazzakJaroukh/ws_tsk.git 
 * cd ws_tsk
