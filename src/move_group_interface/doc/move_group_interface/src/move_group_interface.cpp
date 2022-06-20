@@ -129,6 +129,16 @@ public:
     return exec_success;
 
   }
+  
+  void savePoints(moveit_msgs::RobotTrajectory trajectory_msg)
+  {
+   // to be filled 
+  }
+  
+  void saveVelocities(moveit_msgs::RobotTrajectory trajectory_msg)
+  {
+   // to be filled 
+  }
 
   void addObject(std::string ObjFrame, double r, double g, double b, const std::string& ObjId, double x, double y, double X,
                   double Y, double Z, double Ort_x, double Ort_y, double Ort_z, double Ort_w, bool attach){
